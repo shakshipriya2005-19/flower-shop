@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+header {
+    background: #fceef3;
+    padding: 18px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    color: #6b3f52;
+    font-weight: 600;
+}
+
+nav a {
+    margin-left: 22px;
+    text-decoration: none;
+    color: #6b3f52;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    background: #fff7fa;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #4a2e3a;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.hero-text button {
+    padding: 10px 25px;
+    border: none;
+    background: #e8a6b8;
+    color: white;
+    border-radius: 6px;
+}
+
+.hero-img {
+    width: 380px;
+    border-radius: 18px;
+}
+
+/* Shop */
+.shop {
+    padding: 70px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 230px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* About */
+.about {
+    background: #fff7fa;
+    padding: 70px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 720px;
+    margin: auto;
+    color: #555;
+}
+
+/* Owner */
+.owner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 70px;
+}
+
+.owner img {
+    width: 260px;
+    border-radius: 20px;
+}
+
+.owner-text h3 {
+    color: #e8a6b8;
+}
+
+/* Reviews */
+.reviews {
+    background: #fff7fa;
+    padding: 70px;
+    text-align: center;
+}
+
+.review-box {
+    background: #fdeff4;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+/* Contact */
+.contact {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #fceef3;
+    padding: 18px;
+    text-align: center;
+    color: #6b3f52;
+}
